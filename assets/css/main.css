@@ -2176,10 +2176,10 @@ button,
         -webkit-flex-shrink: 0;
         -ms-flex-shrink: 0;
         flex-shrink: 0;
-        margin: 0 0 4em 0;
-        height: 25em;
+        margin: 0 0 2em 0;
+        height: auto;  /* was 25 em */
         max-height: 50vh;
-        min-height: 18em;
+        min-height: 5em;  /* was 18 em */
         width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
