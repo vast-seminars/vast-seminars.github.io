@@ -98,13 +98,13 @@ body, input, select, textarea {
   line-height: 1.65; }
   @media screen and (max-width: 1680px) {
     body, input, select, textarea {
-      font-size: 11pt; } }
+      font-size: 12pt; } }
   @media screen and (max-width: 1280px) {
     body, input, select, textarea {
-      font-size: 10pt; } }
+      font-size: 11pt; } }
   @media screen and (max-width: 360px) {
     body, input, select, textarea {
-      font-size: 9pt; } }
+      font-size: 10pt; } }
 
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -2125,7 +2125,7 @@ button,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    width: 50%; }
+    width: 60%; }
   #banner .image {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -2137,7 +2137,7 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 40%; }
     #banner .image img {
       height: 100%;
       -moz-object-fit: cover;
@@ -2151,10 +2151,10 @@ button,
       width: 100%; }
   @media screen and (orientation: portrait) {
     #banner {
-      -moz-flex-direction: column-reverse;
-      -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
+      -moz-flex-direction: column; /* was column-reverse when image */
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
       #banner h1 br {
         display: none; }
       #banner .content {
